@@ -1,0 +1,56 @@
+.task{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title_holder{
+    margin: 5px;
+    width: 80%;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+
+
+button{
+    height: 53px;
+    margin: 5px 0;
+    width: 50px;
+}
+
+.dark button{
+    background-color: #222;
+    color: white;
+}
+.dark .title_holder{
+    background-color: #222;
+    /* border: 1px white ; */
+
+}
+.dark p{
+    color: white;
+}
+
+.light .title_holder{
+    background-color: white;
+    /* border: 1px white ; */
+
+}
+
+.light p{
+    color: black;
+}
+
+div p{
+    text-align: center;
+    /* padding: 5px 200px; */
+}
+
+.dark .complete{
+    background-color: rgb(150, 74, 74);
+}
+.light .complete{
+    background-color: rgb(150, 74, 74);
+}

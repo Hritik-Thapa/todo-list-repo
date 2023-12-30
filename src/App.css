@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark{
+  background-color: #333;
+}
+
+.dark h1,p{
+  color: white;
+}
+
+.light{
+  background-color: #ccc;
+}
+
+.light h1,p{
+  color: black;
+}
